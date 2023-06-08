@@ -1,0 +1,33 @@
+@media only screen and (max-width: 767px) {
+    /* Estilos para dispositivos móveis */
+    .nav-menu{
+        display: none;
+    }
+
+    .section-main{
+        background-size: auto;
+        background-position: 62%;
+        height: 85vh;
+    }
+
+    .section-main .container{
+        justify-content: flex-start;
+        padding-top: 200px;
+    }
+
+    .section-main .container .container-section{
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para tablets e dispositivos com largura de tela intermediária */
+}
+
+
+@media only screen and (min-width: 992px) {
+    /* Estilos para desktops e laptops */
+}

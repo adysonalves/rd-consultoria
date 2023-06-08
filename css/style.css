@@ -1,35 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800;900&display=swap');
 
-:root{
-    --cor-principal: #126973;
-    --cor-secundaria: #0396A6;
+:root {
+    --cor-principal: #0396A6;
+    --cor-secundaria: #126973;
     --cor-textos-black: #262626;
     --cor-texto-white: #F2F2F2;
     --font-principal: 'Raleway', sans-serif;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
     font-size: 14px;
     font-family: var(--font-principal);
 }
 
-body{
+body {
     width: 100vw;
-    height: 100%;
     background-color: var(--cor-texto-white);
+    position: relative;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1140px;
     padding: 0 25px;
     margin: auto;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+    z-index: 9999;
+}
+
+nav .logo {
+    width: 50%;
+    height: 100%;
+}
+
+nav .logo img {
+    width: 80px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--cor-texto-white);
+    margin-left: 15px;
+}
+
+.nav-menu a:hover{
+    border-bottom: 2px solid var(--cor-principal);
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+.mobile-menu{
+
+}
+
+.mobile-menu button{
+    width: 35px;
+    height: 35px;
+    color: var(--cor-texto-white);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+}
+
+.section-main {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/section-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+
+.section-main::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    clip-path: polygon(0 100%, 100% 30%, 100% 100%, 0 100%);
+}
+
+.section-main .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-top: 250px;
+}
+
+.section-main .container .container-section{
+    width: 45%;
+    font-size: 1.2rem;
+    color: var(--cor-texto-white);
+    font-weight: 400;
 }
