@@ -10,8 +10,8 @@
 
     .section-main{
         background-size: cover;
-        background-position: 62%;
-        height: 85vh;
+        background-position: 25%;
+        height: 100vh;
     }
 
     .section-main .container{
@@ -21,9 +21,30 @@
 
     .section-main .container .container-section{
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-align: left;
+        font-weight: 800;
     }
+
+    .logo-mobile-nav{
+        width: 95%;
+        height: 100px;
+        position: absolute;
+        bottom: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cards-about {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .cards-about .card{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
 }
 
 
