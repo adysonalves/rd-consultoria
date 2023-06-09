@@ -5,7 +5,7 @@
     }
 
     .section-main{
-        background-size: auto;
+        background-size: cover;
         background-position: 62%;
         height: 85vh;
     }
