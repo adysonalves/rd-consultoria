@@ -58,11 +58,20 @@
     }
 
     .member-thumb{
-        width: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .member-thumb img{
+        width: 50%;
     }
 
     .member-container span{
         font-size: 1.5rem;
+        margin-bottom: 25px;
     }
 
 }
