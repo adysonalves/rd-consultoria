@@ -224,9 +224,9 @@ nav .container .logo img {
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
-}
-
-.cards-about .card{
+  }
+  
+  .cards-about .card {
     width: 32%;
     background-color: var(--cor-texto-white);
     text-align: center;
@@ -234,28 +234,37 @@ nav .container .logo img {
     flex-direction: column;
     padding: 20px;
     border-radius: 4px;
-}
-
-.cards-about .card .card-title{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .cards-about .card.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .cards-about .card .card-title {
     margin-bottom: 15px;
-}
-
-.cards-about .card .card-title i{
+  }
+  
+  .cards-about .card .card-title i {
     font-size: 3rem;
     font-weight: 400;
     color: var(--cor-secundaria);
-}
-
-.cards-about .card .card-title span{
+  }
+  
+  .cards-about .card .card-title span {
     color: var(--cor-secundaria);
     font-size: 2rem;
-}
-
-.cards-about .card span{
+  }
+  
+  .cards-about .card span {
     color: var(--cor-textos-black);
     font-size: 1.2rem;
     display: block;
-}
+  }
+  
 
 section.section-team{
     width: 100%;
@@ -305,4 +314,40 @@ section.section-team .container h2{
     color: var(--cor-texto-white);
     font-size: 1.2rem;
     font-weight: 200;
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    background-color: var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    color: var(--cor-texto-white);
+}
+
+footer span{
+    display: inline;
+}
+
+footer .developer{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer .developer span{
+    font-size: 0.8rem;
+    display: block;
+}
+
+footer .developer img{
+    width: 10%;
 }

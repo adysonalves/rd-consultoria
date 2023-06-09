@@ -1,5 +1,6 @@
 const navMenu = document.getElementById("mobile-nav");
 const navMain = document.getElementById("nav-main");
+const dataAtual = document.getElementById("data-atual");
 
 const navTop = navMain.offsetTop;
 
@@ -21,5 +22,36 @@ function toggleMenuBackground() {
   
   // Adiciona um ouvinte de evento para a rolagem da janela
   window.addEventListener("scroll", toggleMenuBackground);
+
+  const cards = document.querySelectorAll('.cards-about .card');
+
+const options = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.5
+};
+
+const cardObserver = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+      observer.unobserve(entry.target);
+    }
+  });
+}, options);
+
+cards.forEach(card => {
+  cardObserver.observe(card);
+});
+
+function preencheData(){
+    const data = new Date();
+    const anoAtual = data.getFullYear();
+    
+    dataAtual.innerText = anoAtual
+}
+
+preencheData()
+
 
 
