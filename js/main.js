@@ -56,8 +56,10 @@ preencheData();
 
 window.addEventListener('load', function () {
   var loadingContainer = document.getElementById('loading-container');
-  loadingContainer.style.display = 'none';
-  document.body.style.overflow = 'auto';
+  setTimeout(() => {
+    loadingContainer.style.display = 'none';
+    document.body.style.overflow = 'auto';
+  }, 5000)
 });
 
 
