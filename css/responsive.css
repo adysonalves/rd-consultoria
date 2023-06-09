@@ -4,6 +4,10 @@
         display: none;
     }
 
+    .mobile-menu{
+        display: block;
+    }
+
     .section-main{
         background-size: cover;
         background-position: 62%;

@@ -83,6 +83,10 @@ nav .container .logo img {
     transition: 0.5s;
 }
 
+.mobile-menu{
+    display: none;
+}
+
 .mobile-menu button {
     width: 35px;
     height: 35px;
@@ -147,6 +151,7 @@ nav .container .logo img {
     content: "↳";
     font-size: 1.5rem;
     margin-right: 15px;
+    color: var(--cor-primaria);
 }
 
 .section-main {
