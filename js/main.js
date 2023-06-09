@@ -59,7 +59,7 @@ window.addEventListener('load', function () {
   setTimeout(() => {
     loadingContainer.style.display = 'none';
     document.body.style.overflow = 'auto';
-  }, 5000)
+  }, 3000)
 });
 
 
