@@ -1,6 +1,7 @@
 const navMenu = document.getElementById("mobile-nav");
 const navMain = document.getElementById("nav-main");
 const dataAtual = document.getElementById("data-atual");
+const body = document.getElementsByTagName('body');
 
 const navTop = navMain.offsetTop;
 
@@ -51,7 +52,7 @@ function preencheData(){
     dataAtual.innerText = anoAtual
 }
 
-preencheData()
+preencheData();
 
 
 

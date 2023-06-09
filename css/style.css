@@ -468,7 +468,7 @@ section.section-contact .container{
 
 footer{
     width: 100%;
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
     display: flex;
     flex-direction: column;
     text-align: center;
