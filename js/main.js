@@ -54,5 +54,12 @@ function preencheData(){
 
 preencheData();
 
+window.addEventListener('load', function () {
+  var loadingContainer = document.getElementById('loading-container');
+  loadingContainer.style.display = 'none';
+  document.body.style.overflow = 'auto';
+});
+
+
 
 
