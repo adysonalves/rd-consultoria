@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;800;900&display=swap');
 
 :root {
     --cor-primaria: #0396A6;
@@ -223,7 +223,7 @@ nav .container .logo img {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .cards-about .card{
@@ -255,4 +255,54 @@ nav .container .logo img {
     color: var(--cor-textos-black);
     font-size: 1.2rem;
     display: block;
+}
+
+section.section-team{
+    width: 100%;
+    background-color: var(--cor-textos-black);
+    padding: 80px 0;
+}
+
+section.section-team .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section.section-team .container h2{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--cor-texto-white);
+    margin-bottom: 25px;
+}
+
+.team-member{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.member-thumb{
+    width: 20%;
+}
+
+.member-container{
+    width: 80%;
+    padding-left: 45px;
+}
+
+.member-container span{
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+.member-container{
+    color: var(--cor-texto-white);
+    font-size: 1.2rem;
+    font-weight: 200;
 }
