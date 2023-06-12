@@ -237,11 +237,16 @@ nav .container .logo img {
 
 .section-main .container .container-section {
     width: 40%;
-    font-size: 1.2rem;
+    
     font-family: var(--font-principal-);
     color: var(--cor-texto-white);
     font-weight: 400;
     text-align: right;
+}
+
+.section-main .container .container-section h2{
+    font-size: 1.7rem;
+    font-weight: 400;
 }
 
 .section-about{
