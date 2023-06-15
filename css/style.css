@@ -397,6 +397,7 @@ div.area-post .post{
     height: auto;
     padding: 8px;
     border: 1px solid #ffffff28;
+    border-radius: 4px;
     position: relative;
 }
 
@@ -408,13 +409,14 @@ div.area-post .post img{
 div.area-post .post h3{
     color: var(--cor-texto-white);
     font-size: 1.2rem;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
     font-weight: 600;
 }
 
 div.area-post .post a{
     text-decoration: none;
-    padding: 5px 10px;
+    width: 100%;
+    padding: 10px 10px;
     background-color: var(--cor-texto-white);
     position: absolute;
     left: 0;
@@ -422,6 +424,7 @@ div.area-post .post a{
     color: var(--cor-textos-black);
     font-size: 1.2rem;
     font-weight: 600;
+    border-radius: 0 0 4px 4px;
 }
 
 section.section-services{
