@@ -491,6 +491,12 @@ section.section-contact .container{
     align-items: center;
 }
 
+.info-contact {
+    background-color: rgb(245, 245, 245);
+    padding: 15px;
+    border-radius: 4px;
+}
+
 .maps-area h2, .info-contact h2{
     color: var(--cor-primaria);
     text-align: center;
