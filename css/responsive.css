@@ -127,6 +127,19 @@
         margin-bottom: 55px;
     }
 
+    section.section-services{
+        padding: 120px 0;
+    }
+
+    div.area-post{
+        flex-direction: column;
+    }
+
+    div.area-post .post{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
 
 }
 
