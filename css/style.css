@@ -489,6 +489,11 @@ section.section-contact .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
+}
+
+.info-contact{
+    border: 1px solid var(--cor-texto-white);
 }
 
 .maps-area h2, .info-contact h2{
@@ -518,7 +523,7 @@ section.section-contact .container{
     font-size: 1rem;
     color: var(--cor-textos-black);
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 25px;
 }
 
@@ -537,20 +542,21 @@ section.section-contact .container{
 
 .info-contact form .form-group label{
     font-size: 1.2rem;
-    color: var(--cor-textos-black);
+    color: var(--cor-primaria);
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .info-contact form .form-group input{
     width: 100%;
-    height: 35px;
+    height: 40px;
     margin: 6px 0;
     padding: 5px 10px;
     background-color: transparent;
-    border: 2px solid var(--cor-textos-black);
+    border: 2px solid var(--cor-primaria);
     color: var(--cor-texto-white);
     font-size: 1rem;
+    border-radius: 4px;
 }
 
 .info-contact form .form-group input::placeholder{
