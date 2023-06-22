@@ -1,52 +1,53 @@
 @media (max-width: 480px) {
-    .section-about .container h2{
+    .section-about .container h2 {
         font-size: 2rem;
     }
 
-    section.section-team .container h2{
+    section.section-team .container h2 {
         font-size: 2rem;
     }
 
-    section.section-services .container h2{
+    section.section-services .container h2 {
         font-size: 2rem;
     }
 
-    .container-section h2{
+    .container-section h2 {
         font-size: 2rem;
     }
 
 }
 
 @media only screen and (max-width: 767px) {
+
     /* Estilos para dispositivos móveis */
-    .nav-menu{
+    .nav-menu {
         display: none;
     }
 
-    .mobile-menu{
+    .mobile-menu {
         display: block;
     }
 
-    .section-main{
+    .section-main {
         background-size: cover;
         background-position: 25%;
         height: 100vh;
     }
 
-    .section-main .container{
+    .section-main .container {
         justify-content: center;
         padding-top: 0px;
 
     }
 
-    .section-main .container .container-section{
+    .section-main .container .container-section {
         width: 100%;
         font-size: 1.5rem;
         text-align: left;
         font-weight: 800;
     }
 
-    .logo-mobile-nav{
+    .logo-mobile-nav {
         width: 95%;
         height: 100px;
         position: absolute;
@@ -60,24 +61,24 @@
         justify-content: flex-start;
     }
 
-    .cards-about .card{
+    .cards-about .card {
         width: 100%;
         margin-bottom: 15px;
     }
 
-    .team-member{
+    .team-member {
         flex-direction: column;
         align-items: center;
         margin-bottom: 80px;
     }
 
-    .member-container{
+    .member-container {
         width: 100%;
         padding: 0;
         text-align: center;
     }
 
-    .member-thumb{
+    .member-thumb {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -85,63 +86,77 @@
         margin-bottom: 15px;
     }
 
-    .member-thumb img{
+    .member-thumb img {
         width: 50%;
     }
 
-    .member-container span{
+    .member-container span {
         font-size: 1.5rem;
         margin-bottom: 25px;
     }
 
-    footer .developer img{
+    footer .developer img {
         width: 40%;
     }
 
-    div.cards-services{
+    div.cards-services {
         flex-direction: column;
     }
 
-    div.cards-services .card{
+    div.cards-services .card {
         width: 100%;
     }
 
-    .section-about .container h2{
+    .section-about .container h2 {
         font-size: 2.5rem;
     }
 
-    section.section-team .container h2{
+    section.section-team .container h2 {
         font-size: 2.5rem;
     }
 
-    section.section-services .container h2{
+    section.section-services .container h2 {
         font-size: 2.5rem;
     }
 
-    section.section-contact .container{
+    section.section-contact .container {
         flex-direction: column;
     }
 
-    .maps-area, .info-contact{
+    .maps-area,
+    .info-contact {
         width: 100%;
         margin-bottom: 55px;
     }
 
-    section.section-services{
+    section.section-services {
         padding: 120px 0;
     }
 
-    div.area-post{
+    div.area-post {
         flex-direction: column;
     }
 
-    div.area-post .post{
+    div.area-post .post {
         width: 100%;
         margin-bottom: 35px;
     }
 
-    section.section-blog .container{
+    section.section-blog .container {
         text-align: center;
+    }
+
+    section.section-calculadora .container {
+        flex-direction: column;
+    }
+
+    .info-calculadora,
+    .calculadora {
+        width: 100%;
+    }
+
+    .info-calculadora h2 {
+        font-size: 1.5rem;
     }
 
 
@@ -150,6 +165,14 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* Estilos para tablets e dispositivos com largura de tela intermediária */
+
+    nav .container .logo {
+        width: 10%;
+    }
+
+    .member-thumb {
+        width: 32%;
+    }
 }
 
 

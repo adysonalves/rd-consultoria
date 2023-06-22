@@ -476,6 +476,62 @@ div.cards-services .card:hover{
     color: var(--cor-texto-white);
 }
 
+@keyframes girar {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+section.section-calculadora{
+    width: 100%;
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+section.section-calculadora .container{
+    display: flex;
+}
+
+.info-calculadora{
+    width: 50%;
+    background-color: var(--cor-texto-white);
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.info-calculadora h2{
+    font-size: 2.5rem;
+    color: var(--cor-textos-black);
+}
+
+
+.calculadora{
+    width: 50%;
+    padding: 50px 50px;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora i{
+    animation: girar 2s linear infinite;
+    font-size: 1.5rem;
+    color: var(--cor-texto-white);
+    margin-bottom: 15px;
+}
+
+.calculadora span{
+    color: var(--cor-texto-white);
+    font-size: 1.2rem;
+    display: block;
+    font-weight: 600;
+}
+
 section.section-contact{
     width: 100%;
     background-color: #fff;
