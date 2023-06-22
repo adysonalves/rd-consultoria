@@ -173,6 +173,21 @@
     .member-thumb {
         width: 32%;
     }
+
+    .section-main .container {
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .section-main .container .container-section {
+
+        width: 90%;
+        text-align: center;
+    }
+
+    .section-main .container .container-section h2{
+        font-size: 2.7rem;
+    }
 }
 
 
